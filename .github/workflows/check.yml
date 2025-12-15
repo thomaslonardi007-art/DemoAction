@@ -12,3 +12,7 @@ jobs:
       - name: Controlla se README contiene la parola sole
         run: |
           grep -q "sole" README.md
+      - name: Controlla se README contiene la parola maggio
+        run: |
+          grep -q "maggio" README.md
+
