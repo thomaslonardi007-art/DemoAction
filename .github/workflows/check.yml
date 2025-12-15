@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Controlla se README contiene la parola Actions
+      - name: Controlla se README contiene la parola sole
         run: |
-          grep -q "Actions" README.md
+          grep -q "sole" README.md
